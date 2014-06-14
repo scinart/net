@@ -97,6 +97,6 @@ example:
 	    (loop for i in tree do
 		 (let ((b (find-node i pred deal)))
 		   (if (not (null b))
-		       (setf a (append a b))))
-	       finally a))
+		       (setf a (append a b)))))
+	    a)
 	  nil)))
