@@ -17,13 +17,6 @@
 
 ;; http client
 (ql:quickload :drakma)
-(ql:quickload :st-json)
-;; GBK codec facility
-(ql:quickload :babel)
-;; regexp facility
-(ql:quickload :cl-ppcre)
-;; string split
-(ql:quickload :split-sequence)
 ;; html-parsing
 (ql:quickload :closure-html)
 

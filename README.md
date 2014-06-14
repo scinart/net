@@ -21,7 +21,24 @@ use quicklisp to load this package.
 example
 ======
 
-see [my blog(Chinese)](http://scinart.github.io/lisp/2014/06/14/common-lisp-package-note/)
+First it is super simple that I suggest you read the source code.
+
+[Crawl Example](http://scinart.github.io/lisp/2014/06/14/common-lisp-simple-crawl/#toc4)
+
+[cookies or post](http://scinart.github.io/lisp/2014/06/14/common-lisp-simple-crawl/#toc5)
+
+gbk encoding:  
+(babel:octets-to-string (net:wget url) :encoding :gbk)
+
+recommand packages
+======
+
+;; very good json library
+;; (ql:quickload :st-json)
+;; GBK codec facility
+;; (ql:quickload :babel)
+;; regular expression library
+;; (ql:quickload :cl-ppcre)
 
 license
 ======
