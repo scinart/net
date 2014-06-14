@@ -33,12 +33,12 @@ gbk encoding:
 recommand packages
 ======
 
-;; very good json library
-;; (ql:quickload :st-json)
-;; GBK codec facility
-;; (ql:quickload :babel)
-;; regular expression library
-;; (ql:quickload :cl-ppcre)
+    ;; very good json library
+    ;; (ql:quickload :st-json)
+    ;; GBK codec facility
+    ;; (ql:quickload :babel)
+    ;; regular expression library
+    ;; (ql:quickload :cl-ppcre)
 
 license
 ======
